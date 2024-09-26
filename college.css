@@ -1,0 +1,97 @@
+
+html{
+    scroll-behavior: smooth;
+   
+}
+body{
+    font-family: poppins;
+    background-color: #ffffff;
+    
+}
+h1{
+    text-align: center;
+    color: #681c2b;
+    text-shadow: 1px 1px 10px #e7b482
+}
+#navigation{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #681c2b   ;
+    height: 60px;
+    
+   
+}
+a{
+    color: white;
+    text-decoration: none   ;
+}
+#logo{
+    height: 90px;
+
+}
+.image{
+        position: relative;
+        text-align: center;
+        color: white;   
+        text-align: justify;         
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  h2{
+    text-align: center;
+    text-shadow: 1px 1px 10px #e7b482
+  }
+
+
+  .image-row {
+    display: flex; /* Use flexbox to arrange images in a row */
+    gap: 10px; /* Space between images */
+    justify-content: space-around;
+}
+.image-row img{
+    display: block; /* Ensures images are treated as block elements */
+    border-radius: 8px;
+}
+.first {
+    width: 15%; /* Set width for small images */
+    height:auto; /* Maintain aspect ratio */
+    box-shadow: 5px 5px 10px black;
+}
+
+
+   
+#contact-detail {
+    display: flex;
+    
+}
+.allow a {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.for-contact{
+    width: 5%;
+    height: auto;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    /* box-sizing: border-box; */
+    
+}
+.for-contact:hover{
+box-shadow: 5px 5px 5px rgb(0, 0, 0);
+
+/* width: 8%; */
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+}
